@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Happier",
+    "slug": "Happier",
+    "sdkVersion": "39.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/Icon.png",
+    "splash": {
+      "image": "./app/assets/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#9B786F"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.chinazaezinne.happier",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC_v_WdzSRNbuOIvf_-bBjWpgbfxbg-vQc"
+        }
+      }
+    }
+  }
+}
